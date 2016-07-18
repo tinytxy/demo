@@ -1,4 +1,4 @@
-define("app/views/campaigns/standards",["magix","mustache"],function(magix,mustache){
+define("app/views/campaigns/standards",["magix","mustache"],function(magix,Mustache){
 	var a = magix.View.extend({
         init: function(){
             this.observeLocation({
